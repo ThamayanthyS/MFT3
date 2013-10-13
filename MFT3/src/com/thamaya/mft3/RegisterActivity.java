@@ -1,4 +1,4 @@
-package com.example.mft3;
+package com.thamaya.mft3;
 
 import android.os.Bundle;
 import android.app.Activity;

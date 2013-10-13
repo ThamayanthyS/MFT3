@@ -1,4 +1,4 @@
-package com.example.mft3;
+package com.thamaya.mft3;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -31,12 +31,20 @@ public class ContactActivity extends Activity {
 		getMenuInflater().inflate(R.menu.contact, menu);
 		return true;
 	}
+	public void signout(View view) {
+		Intent loginIntent=new Intent(getApplicationContext(),LoginActivity.class);
+		startActivity(loginIntent);
+	}
+	
+	public void viewmap(View view) {
+		Intent mapIntent=new Intent(getApplicationContext(),MapActivity.class);
+		startActivity(mapIntent);
+	}
 
 	public void AddContact(View view) {
 		Intent addIntent = new Intent(getApplicationContext(),
 				AddFriendsActivity.class);
 		startActivity(addIntent);
-
 	}
 
 	public void ViewContact(View view) {

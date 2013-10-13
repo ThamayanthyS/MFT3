@@ -4,20 +4,11 @@
     <string name="app_name">MFT3</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_login">MFT Login</string>
-    <string name="title_activity_register">MFT Register</string>
-    <string name="title_activity_map">Map</string>
-    <string name="title_activity_mft">MFTActivity</string>
-    <string name="title_activity_welcome">Welcome to MFT</string>
-    <string name="title_activity_contact">MFT Contact</string>
-    <string name="title_activity_settings">MFT Settings</string>
-    <string name="title_activity_maptab">MAPTab</string>
-    <string name="title_activity_map_tab">MapTab</string>
-    <string name="title_activity_contact_tab">ContactTab</string>
-    <string name="title_activity_settings_tab">SettingsTab</string>
-    <string name="title_activity_map_view">MapView</string>
-    <string name="title_activity_sample">SampleActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
     <string name="title_activity_add_friends">AddFriendsActivity</string>
-    <string name="title_activity_view_friends">ViewFriendsActivity</string>
+    <string name="title_activity_map">MapActivity</string>
 
 </resources>

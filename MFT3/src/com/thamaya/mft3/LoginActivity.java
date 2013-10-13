@@ -1,4 +1,4 @@
-package com.example.mft3;
+package com.thamaya.mft3;
 
 import android.R.integer;
 import android.os.Bundle;
@@ -14,7 +14,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.mft3.RegisterActivity;
+import com.thamaya.mft3.RegisterActivity;
 import android.view.SurfaceView;
 
 public class LoginActivity extends Activity {

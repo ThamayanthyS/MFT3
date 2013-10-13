@@ -1,4 +1,4 @@
-package com.example.mft3;
+package com.thamaya.mft3;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -24,6 +24,10 @@ public class AddFriendsActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.add_friends, menu);
 		return true;
+	}
+	public void signout(View view) {
+		Intent loginIntent=new Intent(getApplicationContext(),LoginActivity.class);
+		startActivity(loginIntent);
 	}
 	
 	public void back(View view) {
